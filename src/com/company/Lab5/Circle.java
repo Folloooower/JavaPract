@@ -3,17 +3,17 @@ package com.company.Lab5;
 public class Circle extends Shape {
     protected double radius;
 
-    Circle()
+    public Circle()
     {
 
     }
-    Circle(double radius)
+    public Circle(double radius)
     {
         super("Black", false);
         this.radius = radius;
     }
 
-    Circle(double radius, String color, boolean filled)
+    public Circle(double radius, String color, boolean filled)
     {
         super(color, filled);
         this.radius = radius;
